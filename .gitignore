@@ -1,0 +1,17 @@
+/models
+# MLflow files
+mlruns/
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+
+# DVC cache
+.dvc/cache/
+
+# Python files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
