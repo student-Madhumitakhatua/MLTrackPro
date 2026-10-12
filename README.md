@@ -103,3 +103,28 @@ https://github.com/student-Madhumitakhatua/MLTrackPro
 
 This project is an educational machine learning demonstration.
 It is not intended for medical diagnosis or clinical decision-making.
+
+
+
+
+## Experiment Reproducibility
+
+Successfully reproduced the original Logistic Regression experiment
+using the logged MLflow parameters and the DVC-tracked dataset.
+
+- Original Run ID: `0ef65e0a6a504df69a16800c866baee3`
+- Reproduced Run ID: `ae775c2df81b4863b7dc336f34c5b1b5`
+- Model: Logistic Regression
+- Parameter: `C = 1.0`
+
+### Original vs Reproduced Results
+
+| Metric | Original | Reproduced |
+|---|---:|---:|
+| Accuracy | 98.25% | 98.25% |
+| Precision | 98.61% | 98.61% |
+| Recall | 98.61% | 98.61% |
+| F1 Score | 98.61% | 98.61% |
+
+The reproduced experiment achieved the same evaluation metrics
+as the original run.
